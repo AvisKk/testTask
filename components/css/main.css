@@ -1,0 +1,12 @@
+@import "positions.css";
+@import "button.css";
+@import "more.css";
+
+/*Настройка внешнего вида фона фона*/
+body {
+    background-image: linear-gradient(rgb(2, 15, 32, 0.4), rgb(2, 15, 32, 0.4)),
+    url("../../images/Background.png");
+    background-origin: border-box;
+    background-repeat: repeat, no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,9 @@
+
+/*Настройка внешнего вида выпадающей информации*/
+.more {
+    font-family: Arial, serif;
+    font-size: 14px;
+    padding-right: 11px;
+    box-sizing: content-box;
+    vertical-align: middle;
+}

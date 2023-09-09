@@ -1,0 +1,41 @@
+
+/*Настройка внешнего вида кнопок*/
+.button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(56, 119, 238, 0.7);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+}
+
+/*Внешний вид кнопки при наведении на неё*/
+.button:hover {
+    background-color: rgba(56, 119, 238);
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+}
+
+/*Переопределение цвета для зелёных кнопок*/
+.button.green {
+    background-color: rgba(106, 191, 75, 0.7);
+}
+
+/*Переопределение эффекта при наведении на зелёную кнопку*/
+.button.green:hover {
+    background-color: rgba(106, 191, 75);
+}
+
+/*Внешний вид знаков на кнопках*/
+.button img {
+    width: 10px;
+    box-sizing: content-box;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+/*Изменеие ширины блока при клике на кнопку*/
+.opened {
+    width: max-content;
+}
